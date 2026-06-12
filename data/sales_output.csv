@@ -1,0 +1,11 @@
+date,region,product,quantity,price,discount
+2025-01-01,North,Widget,10,25.0,0.05
+2025-01-01,South,Gadget,5,45.0,0.1
+2025-01-02,North,Gadget,8,45.0,0.0
+2025-01-02,East,Widget,15,25.0,0.05
+2025-01-03,South,Widget,3,25.0,0.0
+2025-01-03,West,Gizmo,12,75.0,0.15
+2025-01-04,North,Gizmo,6,75.0,0.1
+2025-01-04,East,Gadget,20,45.0,0.05
+2025-01-05,South,Gizmo,9,75.0,0.1
+2025-01-05,West,Widget,18,25.0,0.0

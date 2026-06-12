@@ -1,0 +1,22 @@
+[project]
+name = "data-monkey"
+version = "0.1.0"
+description = "MCP server exposing Polars data operations: read, write, analyze, aggregate, transform, and SQL querying of tabular data files."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.27.2",
+    "openpyxl>=3.1.5",
+    "polars>=1.41.2",
+    "pyarrow>=24.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+data-monkey = "data_monkey.server:main"
+
+[dependency-groups]
+dev = []

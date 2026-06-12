@@ -1,0 +1,5 @@
+region,customer_count,active_ratio
+North,150,0.85
+South,200,0.92
+East,175,0.78
+West,120,0.88
