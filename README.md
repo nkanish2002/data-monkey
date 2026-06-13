@@ -33,7 +33,7 @@ uvx --from /path/to/data-monkey data-monkey
 ### Installing globally
 
 ```bash
-uv pip install -e /path/to/data-monkey
+uv tool install -e /path/to/data-monkey
 data-monkey
 ```
 
